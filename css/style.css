@@ -1,0 +1,207 @@
+
+/* ----------------- HEADER ------------- */
+
+/* ##### HEADER TOP*/
+
+/* ******** NOTICIAS ********* */
+header .top-header
+{
+    font-size: 12px;
+}
+
+header .noticia-top
+{
+    font-size: 13px;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+header .noticia-top ul .list-inline-item:not(:last-child) {
+    margin-right: 0;
+}
+
+header .noticia-top ul a{
+    text-decoration: none;
+    color: black;
+    padding: 0 1px;
+}
+
+header .noticia-top ul a:hover{
+    text-decoration: underline;
+}
+
+
+header .noticia-top ul .li-bold{
+    font-weight: bold;
+}
+
+header .top-header{
+    padding: 5px;
+}
+
+/* ******* Main logo ********** */
+
+
+/**+++ Imagenes Ul*/
+header .top-items-img ul .list-inline-item:not(:last-child) {
+    margin-right: 0;
+}
+
+header .top-items-img ul li{
+    border-right: solid 1px #CED0D0;
+    padding: 0px 10px;
+}
+
+
+header .top-items-img ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+header .top-items-img ul li a:hover{
+    color: #CC0000;
+}
+
+header .top-items-img img{
+    height: 30px;
+    border-radius: 20px;
+    margin-right: 5px
+}
+
+/*+++ Logo*/
+
+header .logo-marca img{
+    height: 45px;
+}
+
+/*+++ botones mx/inicio sesion*/
+
+/*MX*/
+header .botones .btn-mx {
+    outline-color: #6c757d;
+    color: #6c757d;
+    background-color: white;
+}
+
+header .botones .btn-mx:focus {
+    background-color: transparent !important;
+    color: #6c757d;
+}
+
+header .botones .btn-group ul li a{
+    text-decoration: none;
+    color:#6c757d; 
+}
+
+header .botones .btn-group ul li{
+    color:black; 
+}
+
+header .botones .btn-group .dropdown-menu .dropdown-divider{
+    margin: 0px;
+}
+
+header .botones .btn-group .dropdown-menu .dropdown-item.active a{
+    color: white;
+}
+
+.botones .dropdown-menu > .dropdown-item:hover{
+    background-color:#E8EAEA; 
+}
+
+.botones .dropdown-menu > .dropdown-item.active:hover{
+    background-color:#0d6efd; 
+}
+
+
+.dropdown-menu > .dropdown-item.item-ul:hover{
+    background-color:transparent; 
+}
+
+header .botones .btn-group ul.dropdown-menu{
+    width: 250px;
+}
+
+header .botones .btn-group ul.dropdown-menu li{
+    line-height: 35px;
+    font-size: 15px;
+}
+
+header .botones .btn-group ul.dropdown-menu li.dropdown-item.item-ul{
+    line-height: normal;
+    font-size: 15px;
+}
+
+
+.btn-group ul.dropdown-menu li.dropdown-item.item-ul form .ediciones-items{
+    display: flex;
+    flex-direction: column; 
+}
+
+.btn-group ul.dropdown-menu li.dropdown-item.item-ul form .btn.btn-danger{
+    background-color: #D50F0F;
+    margin-top: 20px;
+}
+
+
+header .botones .btn-group ul.dropdown-menu li p{
+
+    font-size: 13px;
+}
+
+header .botones .btn-group ul.dropdown-menu li label{
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+
+
+.botones .btn-group .check-radio .form-chek .form-chek-input:active{
+    background-color: transparent;
+}
+
+
+/*Inicio-Sesion*/
+header .botones .btn-inicio-sesion {
+    height: 34px;
+    border: solid 1px #6c757d;
+    color: #CC0000;
+}
+
+header .botones .btn-inicio-sesion:hover {
+    color: white;
+}
+
+/*######## NAV*/
+
+header .top-header .botones .dropdown-toggle::after {
+    display: none;
+}
+
+header nav .navbar-nav .dropdown-toggle::after {
+    display: none;
+}
+
+header nav.navbar{
+    background-color: #D50F0F; 
+    padding: 2px; 
+}
+
+.navbar-nav .nav-link.show {
+    color: white;
+}
+
+header nav.navbar ul li.nav-item a{
+    color: white; 
+    font-weight: bold;
+}
+
+header nav.navbar ul li.nav-item a:focus{
+    color: white; 
+}
+
+nav li.nav-item ul.dropdown-menu a.dropdown-item{
+    font-weight: normal;
+    color: black;
+}
